@@ -27,20 +27,17 @@ Project File Date:  12/11/2024
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Apps\Keil_V5\ARM\ARM_Compiler5\Bin'
 Build target 'Target 1'
-assembling startup_LPC17xx.s...
-compiling RTX_Conf_CM.c...
-compiling joystick.c...
-compiling system_LPC17xx.c...
 compiling main_stepper.c...
-main_stepper.c(176): warning:  #111-D: statement is unreachable
-      return 0;  
-main_stepper.c(110): warning:  #177-D: variable "k"  was declared but never referenced
-      uint32_t k;
-main_stepper.c: 2 warnings, 0 errors
-compiling GLCD_SPI_LPC1700.c...
+main_stepper.c(188): warning:  #111-D: statement is unreachable
+    return 0;
+main_stepper.c(189): warning:  #1-D: last line of file ends without a newline
+  }
+main_stepper.c(126): warning:  #177-D: variable "k"  was declared but never referenced
+    uint32_t k;
+main_stepper.c: 3 warnings, 0 errors
 linking...
-Program Size: Code=9472 RO-data=6612 RW-data=88 ZI-data=3728  
-".\Objects\lab5.axf" - 0 Error(s), 2 Warning(s).
+Program Size: Code=9504 RO-data=6612 RW-data=144 ZI-data=3728  
+".\Objects\lab5.axf" - 0 Error(s), 3 Warning(s).
 
 <h2>Software Packages used:</h2>
 
@@ -72,25 +69,25 @@ Package Vendor: Keil
    * Component: ARM::CMSIS:CORE@5.6.0
 
    * Component: ARM::CMSIS:RTOS:Keil RTX@4.82.0
-      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MailQueue.c
-      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MemPool.c
+      Source file:   CMSIS/RTOS/RTX/Templates/RTX_Conf_CM.c
       Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Timer.c
       Source file:   CMSIS/RTOS/RTX/SRC/ARM/SVC_Table.s
-      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Thread.c
-      Include file:  CMSIS/RTOS/RTX/INC/cmsis_os.h
+      Include file:  CMSIS/RTOS/RTX/UserCodeTemplates/osObjects.h
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MailQueue.c
       Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/main.c
-      Library file:  CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Mutex.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MemPool.c
       Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Semaphore.c
       Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/MsgQueue.c
-      Include file:  CMSIS/RTOS/RTX/UserCodeTemplates/osObjects.h
-      Source file:   CMSIS/RTOS/RTX/Templates/RTX_Conf_CM.c
-      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Mutex.c
+      Source file:   CMSIS/RTOS/RTX/UserCodeTemplates/Thread.c
+      Include file:  CMSIS/RTOS/RTX/INC/cmsis_os.h
+      Library file:  CMSIS/RTOS/RTX/LIB/ARM/RTX_CM3.lib
 
    * Component: Keil::Device:Startup@1.0.0
-      Include file:  RTE_Driver/Config/RTE_Device.h
       Include file:  Device/Include/LPC17xx.h
-      Source file:   Device/Source/ARM/startup_LPC17xx.s
       Source file:   Device/Source/system_LPC17xx.c
+      Source file:   Device/Source/ARM/startup_LPC17xx.s
+      Include file:  RTE_Driver/Config/RTE_Device.h
 Build Time Elapsed:  00:00:01
 </pre>
 </body>
