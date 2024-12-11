@@ -1,0 +1,11 @@
+.\objects\main_stepper.o: main_stepper.c
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm3.h
+.\objects\main_stepper.o: D:\Apps\Keil_V5\ARM\ARM_Compiler5\Bin\..\include\stdint.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\main_stepper.o: C:\Users\hoang\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h
+.\objects\main_stepper.o: joystick.h
+.\objects\main_stepper.o: GLCD.h
